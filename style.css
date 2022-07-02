@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(/2022-07-01.png);
+}
+.from{
+    margin-top: 8rem;
+    margin-left: 5%;
+    width: 90%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.952);
+    display: flex;
+    /* gap: 1.5%; */
+    border-radius: 15px;
+}
+.ads{
+    margin-top: 0.5%;
+    width: 95%;
+    height: 98%;
+    display: flex;
+    border-right: 1px solid white;
+}
+.ads img{
+    margin-top: 2%;
+    margin-left: 2.5%;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    border-radius: 10px;
+}
+.site{
+    margin-top: 1rem;
+    margin-left: -19.5rem;
+    width: 19rem;
+    height: 15rem;
+    text-align: center;
+}
+.site h1{
+    margin-left: 3rem;
+    font-size: 3rem;
+    width: 15rem;
+    color: white;
+    background: black;
+    border: 1px solid white;
+    border-radius: 15px 0px 15px 0px;
+}
+.sp{
+    color: orange;
+}
+.site h3{
+    margin-top: 1rem;
+    margin-left: 3.1rem;
+    font-size: 2.5rem;
+    width: 15rem;
+    background: white;
+    border: 1px solid white;
+    transform: skew(5deg, 10deg);
+    border-radius: 2px 15px 2px 15px;
+    
+}
+.site h2{
+    margin-top: 1rem;
+    margin-left: 3.25rem;
+    font-size: 3rem;
+    width: 15rem;
+    color: orange;
+    background: black;
+    border: 1px solid white;
+    transform: skew(0deg, 0deg);
+    border-radius: 15px 2px 15px 0px;
+}
+.site p{
+    margin-top: 0.5rem;
+    margin-left: 3.25rem;
+    width: 15rem;
+    background: orange;
+    border: 1px solid black;
+    font-size: 30px;
+    border-radius: 0px 15px 0px 15px;
+}
+/*===================Login=Page======================*/
+.login{
+    margin-top: 1.5%;
+    width: 95%;
+    height: 92%;
+    text-align: center;
+}
+.loghead{
+    margin-left: 5%;
+    width: 90%;
+    font-size: 3rem;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.loghead span{
+    color: orange;
+}
+.logdata{
+    margin-left: 5%;
+    width: 90%;
+    height: 8rem;
+}
+.input{
+    margin-top: 1rem;
+    height: 2.5rem;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.input label{
+    padding: 8px;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+    border-radius: 5px 0px 0px 5px;
+    background-color: orange;
+}
+.input input{
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 0px 5px 5px 0px;
+}
+.login-btn{
+    width: 25%;
+    height: 2.5rem;
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit{
+    font-size: 1.7rem;
+}
+.forgot-btn{
+    margin-top: 1rem;
+    width: 90%;
+    height: 2rem;
+    background: none;
+    border: none;
+}
+.forget{
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+}
+.or{
+    margin-top: 0.5rem;
+    margin-left: 5%;
+    width: 90%;
+    border-top: 1px solid white;
+}
+.ortag{
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    color: orange;
+}
+.register{
+    margin-top: 0.5rem;
+    margin-left: 5%;
+    width: 90%;
+    height: 2rem;
+}
+.regfrom{
+    font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+}
+.login-btn:hover{
+    color: white;
+    background-color: black;
+    border-color: orange;
+}
+.forget:hover{
+    color: orange;
+}
+.regfrom:hover{
+    color: orange;
+}
+.cancel{
+    margin-top: 5%;
+    margin-left: 91%;
+    width: 3rem;
+    cursor: pointer;
+}
+.cancel ion-icon{
+    font-size: 3rem;
+    color: red;
+    background: orange;
+    border: 1px solid white;
+    border-radius: 30px 30px 10px 30px;
+}
+.cancel:hover ion-icon{
+    color: white;
+    background: red;
+}
+/*=========Register From======*/
+.fromreg{
+    margin-top: 7.4rem;
+    margin-left: 5%;
+    width: 90%;
+    height: 79%;
+    background-color: rgba(0, 0, 0, 0.952);
+    display: flex;
+    border-radius: 15px;
+}
+.reglogin{
+    margin-top: 10px;
+    width: 95%;
+    height: 96%;
+    text-align: center;
+}
+.reghead{
+    margin-top: -0.5rem;
+    margin-left: 5%;
+    width: 90%;
+    font-size: 3rem;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.reghead span{
+    color: orange;
+}
+.regdata{
+    margin-left: 5%;
+    width: 90%;
+    height: 78%;
+}
+.regdata label{
+    padding: 8px;
+    width: 15rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+    border-radius: 5px 0px 0px 5px;
+    background-color: orange;
+}
+.gen{
+    font-size: 1.1rem;
+    border: none;
+}
+.gen option{
+    font-size: 1.1rem;
+}
+.cancel2{
+    margin-top: -2.1rem ;
+    margin-left: 91%;
+    width: 3rem;
+    cursor: pointer;
+}
+.cancel2 ion-icon{
+    font-size: 3rem;
+    color: red;
+    background: orange;
+    border: 1px solid white;
+    border-radius: 30px 30px 10px 30px;
+}
+.cancel2:hover ion-icon{
+    color: white;
+    background: red;
+}
+
