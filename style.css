@@ -7,7 +7,7 @@ body{
     position: fixed;
     width: 100%;
     height: 100%;
-    background-image: url(/2022-07-01.png);
+    background-image: url(/back.png);
 }
 .from{
     margin-top: 8rem;
@@ -16,7 +16,6 @@ body{
     height: 70%;
     background-color: rgba(0, 0, 0, 0.952);
     display: flex;
-    /* gap: 1.5%; */
     border-radius: 15px;
 }
 .ads{
@@ -86,10 +85,30 @@ body{
 }
 /*===================Login=Page======================*/
 .login{
-    margin-top: 1.5%;
+    margin-top: 2rem;
     width: 95%;
     height: 92%;
     text-align: center;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.cancel{
+    margin-left: -16px;
+    width: 2rem;
+    cursor: pointer;
+}
+.cancel ion-icon{
+    font-size: 2rem;
+    color: red;
+    background: orange;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.cancel:hover ion-icon{
+    color: white;
+    background: red;
 }
 .loghead{
     margin-left: 5%;
@@ -183,29 +202,13 @@ body{
 .regfrom:hover{
     color: orange;
 }
-.cancel{
-    margin-top: 5%;
-    margin-left: 91%;
-    width: 3rem;
-    cursor: pointer;
-}
-.cancel ion-icon{
-    font-size: 3rem;
-    color: red;
-    background: orange;
-    border: 1px solid white;
-    border-radius: 30px 30px 10px 30px;
-}
-.cancel:hover ion-icon{
-    color: white;
-    background: red;
-}
+
 /*=========Register From======*/
 .fromreg{
-    margin-top: 7.4rem;
+    margin-top: 5rem;
     margin-left: 5%;
     width: 90%;
-    height: 79%;
+    height: 80%;
     background-color: rgba(0, 0, 0, 0.952);
     display: flex;
     border-radius: 15px;
@@ -248,21 +251,5 @@ body{
 .gen option{
     font-size: 1.1rem;
 }
-.cancel2{
-    margin-top: -2.1rem ;
-    margin-left: 91%;
-    width: 3rem;
-    cursor: pointer;
-}
-.cancel2 ion-icon{
-    font-size: 3rem;
-    color: red;
-    background: orange;
-    border: 1px solid white;
-    border-radius: 30px 30px 10px 30px;
-}
-.cancel2:hover ion-icon{
-    color: white;
-    background: red;
-}
+
 
