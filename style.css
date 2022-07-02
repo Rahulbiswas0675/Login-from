@@ -10,7 +10,7 @@ body{
     background-image: url(/back.png);
 }
 .from{
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-left: 5%;
     width: 90%;
     height: 70%;
@@ -85,7 +85,7 @@ body{
 }
 /*===================Login=Page======================*/
 .login{
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 95%;
     height: 92%;
     text-align: center;
